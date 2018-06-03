@@ -1,0 +1,242 @@
+﻿@{
+    ViewBag.Title = "Работники";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div ng-app="angapp" ng-controller="mainController" class="container-fluid">
+    <h1>Работники</h1>
+    <md-button class="md-raised md-warn" data-toggle="modal" data-target="#addEmployeeModal" ng-click="prepareEmployee()">Добавить работника</md-button>
+    <md-button class="md-raised md-default" ng-click="getReport()">Экспорт Excel</md-button>
+    <md-button class="md-raised md-primary" data-toggle="modal" data-target="#addDepartmentModal" ng-click="addPrepareDepartment()">Добавить отдел</md-button>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>
+                    Шифр
+                </th>
+                <th>
+                    Имя
+                </th>
+                <th>
+                    Адрес
+                </th>
+                <th>
+                    Телефон
+                </th>
+                <th>
+                    Дата рождения
+                </th>
+                <th>
+                    Отдел
+                </th>
+                <th>
+                    Пол
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="employee in employees" ng-click="selectEmployee(employee)">
+                <td>{{$index + 1}}</td>
+                <td>{{employee.Name}}</td>
+                <td>{{employee.Address}}</td>
+                <td>{{employee.Phone}}</td>
+                <td>{{employee.BirthDate}}</td>
+                <td>{{employee.Department.Name}}</td>
+                <td>{{employee.Gender.Description}}</td>
+                <td>
+                    <md-button title="Редактирование" class="md-icon-button md-primary" data-toggle="modal" ng-click="prepareToChange(employee)" data-target="#editEmployeeModal" aria-label="Редактирование">
+                        <md-icon md-svg-icon="actions:build"></md-icon>
+                    </md-button>
+                    <md-button title="Удаление" class="md-icon-button md-primary" aria-label="Удалить" ng-click="deleteEmployee(employee)">
+                        <md-icon md-svg-icon="actions:delete"></md-icon>
+                    </md-button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+    <h1>Награды</h1>
+    <md-button class="md-raised md-warn" data-toggle="modal" data-target="#addRewardModal" ng-disabled="!selectedEmployee" ng-click="prepareReward()">Добавить награду</md-button>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>
+                    Наименование
+                </th>
+                <th>
+                    Описание
+                </th>
+                <th>
+                    Год
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="reward in selectedEmployee.Rewards">
+                <td>{{reward.Name}}</td>
+                <td>{{reward.Description}}</td>
+                <td>{{reward.Year}}</td>
+                <td>
+                    <md-button title="Редактирование" data-toggle="modal" data-target="#editRewardModal" class="md-icon-button md-primary" aria-label="Настройка" ng-click="editReward(reward)">
+                        <md-icon md-svg-icon="actions:build"></md-icon>
+                    </md-button>
+                    <md-button title="Удаление" class="md-icon-button md-primary" aria-label="Удалить" ng-click="deleteReward(reward)">
+                        <md-icon md-svg-icon="actions:delete"></md-icon>
+                    </md-button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="modal fade" id="addEmployeeModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Добавить работника</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="newEmployee.Name" placeholder="Имя">
+                    </p>
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="newEmployee.Address" placeholder="Адрес">
+                    </p>
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="newEmployee.Phone" placeholder="Телефон">
+                    </p>
+                    <label for="sel1">Отдел</label>
+                    <select class="form-control" id="sel1" ng-model="newEmployee.Department">
+                        <option ng-repeat="department in departments" ng-value="{{department}}">{{department.Name}}</option>
+                    </select>
+                    <label for="sel2">Пол</label>
+                    <select class="form-control" id="sel2" ng-model="newEmployee.Gender">
+                        <option ng-repeat="g in gender" ng-value="{{g}}">{{g.Description}}</option>
+                    </select>
+                    <p>
+                        <input type="date" autocomplete="off" ng-model="newEmployee.BirthDate" placeholder="Дата рождения">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal" ng-disabled="!newEmployee.valid()" ng-click="addNewEmployee(newEmployee)">Создать</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="addRewardModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Добавить награду</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="newReward.Name" placeholder="Название">
+                    </p>
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="newReward.Description" placeholder="Описание">
+                    </p>
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="newReward.Year" placeholder="Год">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal" ng-disabled="!newReward.valid()" ng-click="addNewReward(newReward)">Добавить</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editEmployeeModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Редактирование</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="changedEmployee.Name" placeholder="Имя">
+                    </p>
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="changedEmployee.Address" placeholder="Адрес">
+                    </p>
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="changedEmployee.Phone" placeholder="Телефон">
+                    </p>
+                    <label for="sel1">Отдел</label>
+                    <select class="form-control" id="sel1" ng-model="changedEmployee.Department">
+                        <option ng-selected="changedEmployee.Department.Id === department.Id" ng-repeat="department in departments" ng-value="{{department}}">{{department.Name}}</option>
+                    </select>
+                    <label for="sel2">Пол</label>
+                    <select class="form-control" id="sel2" ng-model="changedEmployee.Gender">
+                        <option ng-repeat="g in gender" ng-selected="changedEmployee.Gender.Value === g.Value" ng-value="{{g}}">{{g.Description}}</option>
+                    </select>
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="changedEmployee.BirthDate" placeholder="Дата рождения">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal" ng-click="changeEmployee()">Сохранить</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editRewardModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Редактирование награды</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="changedReward.Name" placeholder="Имя">
+                    </p>
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="changedReward.Description" placeholder="Описание">
+                    </p>
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="changedReward.Year" placeholder="Год">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal" ng-click="changeReward()">Сохранить</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="addDepartmentModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Добавить отдел</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <input type="text" autocomplete="off" ng-model="newDepartment.Name" placeholder="Имя">
+                    </p>                  
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal" ng-click="addDepartment()">Добавить</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

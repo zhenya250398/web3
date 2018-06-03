@@ -1,0 +1,47 @@
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionModel\bin\Debug\DataCollectionModel.dll
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionModel\bin\Debug\DataCollectionModel.pdb
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.csprojResolveAssemblyReference.cache
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.dll
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.pdb
+D:\Projects\DataCollectionApp\DataCollectionModel\bin\Debug\DataCollectionModel.dll
+D:\Projects\DataCollectionApp\DataCollectionModel\bin\Debug\DataCollectionModel.pdb
+D:\Projects\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.dll
+D:\Projects\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.pdb
+D:\Projects\DataCollectionApp\DataCollectionModel\bin\Debug\DataCollectionModel.dll.config
+D:\Projects\DataCollectionApp\DataCollectionModel\bin\Debug\EntityFramework.dll
+D:\Projects\DataCollectionApp\DataCollectionModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\DataCollectionApp\DataCollectionModel\bin\Debug\EntityFramework.xml
+D:\Projects\DataCollectionApp\DataCollectionModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\DataCollectionApp\DataCollectionModel\bin\Debug\EPPlus.dll
+D:\Projects\DataCollectionApp\DataCollectionModel\bin\Debug\EPPlus.xml
+D:\Projects\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.csprojResolveAssemblyReference.cache
+D:\Projects\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.Migrations.InitialCreate.resources
+D:\Projects\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.csproj.GenerateResource.Cache
+D:\My\DataCollectionApp\DataCollectionModel\bin\Debug\DataCollectionModel.dll.config
+D:\My\DataCollectionApp\DataCollectionModel\bin\Debug\DataCollectionModel.dll
+D:\My\DataCollectionApp\DataCollectionModel\bin\Debug\DataCollectionModel.pdb
+D:\My\DataCollectionApp\DataCollectionModel\bin\Debug\EntityFramework.dll
+D:\My\DataCollectionApp\DataCollectionModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\My\DataCollectionApp\DataCollectionModel\bin\Debug\EPPlus.dll
+D:\My\DataCollectionApp\DataCollectionModel\bin\Debug\EntityFramework.xml
+D:\My\DataCollectionApp\DataCollectionModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\My\DataCollectionApp\DataCollectionModel\bin\Debug\EPPlus.xml
+D:\My\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.csprojResolveAssemblyReference.cache
+D:\My\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.Migrations.InitialCreate.resources
+D:\My\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.csproj.GenerateResource.Cache
+D:\My\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.dll
+D:\My\DataCollectionApp\DataCollectionModel\obj\Debug\DataCollectionModel.pdb
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\bin\Debug\DataCollectionModel.dll.config
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\bin\Debug\DataCollectionModel.dll
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\bin\Debug\DataCollectionModel.pdb
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\bin\Debug\EntityFramework.dll
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\bin\Debug\EPPlus.dll
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\bin\Debug\EntityFramework.xml
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\bin\Debug\EPPlus.xml
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\obj\Debug\DataCollectionModel.csprojResolveAssemblyReference.cache
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\obj\Debug\DataCollectionModel.Migrations.InitialCreate.resources
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\obj\Debug\DataCollectionModel.csproj.GenerateResource.Cache
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\obj\Debug\DataCollectionModel.dll
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionModel\obj\Debug\DataCollectionModel.pdb

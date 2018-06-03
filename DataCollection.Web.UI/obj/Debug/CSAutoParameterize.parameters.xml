@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MyDB-Web.config Connection String" description="MyDB Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="data source=(LocalDb)\MSSQLLocalDB;initial catalog=MyDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\My\\DataCollectionApp\\DataCollection\.Web\.UI\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDB']/@connectionString" />
+  </parameter>
+  <parameter name="MyDB_DatabasePublish-Web.config Connection String" description="MyDB_DatabasePublish Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="MyDB_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\My\\DataCollectionApp\\DataCollection\.Web\.UI\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDB_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

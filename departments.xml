@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDepartment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Department>
+    <Id>db299772-3896-4457-a83b-ec70f3b1cac5</Id>
+    <Name>АСО</Name>
+  </Department>
+  <Department>
+    <Id>db299772-3896-4457-a83b-ec70f3b1ca33</Id>
+    <Name>ГМО</Name>
+  </Department>
+  <Department>
+    <Id>db299772-3896-4457-a83b-ec70f3b1cac7</Id>
+    <Name>Горный отдел</Name>
+  </Department>
+</ArrayOfDepartment>

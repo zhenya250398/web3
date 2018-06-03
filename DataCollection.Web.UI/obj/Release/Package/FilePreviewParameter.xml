@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="DataCollectionWeb" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Projects\\DataCollectionApp\\DataCollection\.Web\.UI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Projects\\DataCollectionApp\\DataCollection\.Web\.UI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MyDB-Web.config Connection String" description="" value="Server=tcp:datacollectionwebdb.database.windows.net,1433;Initial Catalog=MyDb;Persist Security Info=False;User ID=student;Password=000TestP@SS;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Projects\\DataCollectionApp\\DataCollection\.Web\.UI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDB']/@connectionString" />
+  </parameter>
+</parameters>

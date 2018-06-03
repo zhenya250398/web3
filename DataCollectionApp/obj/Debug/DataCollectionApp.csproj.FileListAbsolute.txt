@@ -1,0 +1,53 @@
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionApp.exe
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionApp.pdb
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionModel.dll
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionModel.pdb
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.csprojResolveAssemblyReference.cache
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.Form1.resources
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.Properties.Resources.resources
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.csproj.GenerateResource.Cache
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.exe
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.pdb
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.DepartmentForm.resources
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.EmpForm.resources
+c:\users\genets\documents\visual studio 2015\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.NewRewardForm.resources
+D:\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionApp.exe
+D:\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionApp.pdb
+D:\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionModel.dll
+D:\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionModel.pdb
+D:\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.csprojResolveAssemblyReference.cache
+D:\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.DepartmentForm.resources
+D:\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.EmpForm.resources
+D:\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.Form1.resources
+D:\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.NewRewardForm.resources
+D:\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.Properties.Resources.resources
+D:\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.csproj.GenerateResource.Cache
+D:\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.exe
+D:\Projects\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.pdb
+D:\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\EntityFramework.dll
+D:\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionModel.dll.config
+D:\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\EntityFramework.xml
+D:\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\EPPlus.dll
+D:\Projects\DataCollectionApp\DataCollectionApp\bin\Debug\EPPlus.xml
+D:\My\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionApp.exe
+D:\My\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionApp.pdb
+D:\My\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionModel.dll
+D:\My\DataCollectionApp\DataCollectionApp\bin\Debug\EntityFramework.dll
+D:\My\DataCollectionApp\DataCollectionApp\bin\Debug\EPPlus.dll
+D:\My\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionModel.pdb
+D:\My\DataCollectionApp\DataCollectionApp\bin\Debug\DataCollectionModel.dll.config
+D:\My\DataCollectionApp\DataCollectionApp\bin\Debug\EntityFramework.xml
+D:\My\DataCollectionApp\DataCollectionApp\bin\Debug\EPPlus.xml
+D:\My\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.csprojResolveAssemblyReference.cache
+D:\My\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.DepartmentForm.resources
+D:\My\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.EmpForm.resources
+D:\My\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.Form1.resources
+D:\My\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.NewRewardForm.resources
+D:\My\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.Properties.Resources.resources
+D:\My\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.csproj.GenerateResource.Cache
+D:\My\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.exe
+D:\My\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.pdb
+C:\Users\genets\Desktop\DataCollectionApp_Source\DataCollectionApp_web\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.exe
+C:\Users\genets\Desktop\DataCollectionApp_Source\DataCollectionApp_web\DataCollectionApp\DataCollectionApp\obj\Debug\DataCollectionApp.pdb
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionApp\obj\Debug\DataCollectionApp.exe
+C:\Users\DOC\Desktop\DataCollectionApp_web\DataCollectionAppWeb\DataCollectionApp\obj\Debug\DataCollectionApp.pdb
